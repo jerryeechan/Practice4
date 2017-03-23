@@ -38,7 +38,6 @@ public class Pokedex {
         reader.close();
     }
     void saveFile(String fileName) throws IOException {
-        //TODO sort list before save to file
 
         //Create JsonWriter with fileName
         JsonWriter writer = new JsonWriter(new FileWriter(fileName));
